@@ -1,0 +1,121 @@
+.header {
+    min-height: 100vh;
+}
+
+/* logo-wrapper */
+
+.logo-wrapper {
+    position: relative;
+    width: 850px;
+    height: 310px;
+}
+
+
+@media (min-width: 1536px) { 
+    .logo-wrapper {
+        width: 1050px;
+        height: 400px;
+    }
+}
+
+.logo-wrapper img {
+    width: 100%;
+}
+
+
+/* customlogo */
+
+.customlogo {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.zindex-1 {
+    z-index: -1;
+}
+
+
+/* socialmedia-header-icons */
+
+@media only screen and (max-width: 750px) {
+    .logo-wrapper {
+        position: relative;
+        width: 90vw;
+        height: auto;
+    }
+}
+
+
+/* dollars animation */
+
+.dolors {
+    transition: 2s;
+}
+
+
+/* .rota_container {
+    width: 70%;
+}
+
+.rotate {
+    animation: rotating 2s linear 0s infinite;
+    -moz-animation: 2s linear 0s none infinite rotating;
+    -webkit-animation: rotating 2s linear 0s infinite;
+    -webkit-animation-play-state: paused;
+    -o-animation-play-state: paused;
+    -moz-animation-play-state: paused;
+    animation-play-state: paused;
+}
+
+.rota_container:hover .rotation .rotate {
+    -webkit-animation-play-state: running;
+    -o-animation-play-state: running;
+    -moz-animation-play-state: running;
+    -webkit-animation-play-state: running;
+}
+
+@keyframes rotating {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@-moz-keyframes rotating {
+    0% {
+        -moz-transform: rotate(0deg);
+    }
+    100% {
+        -moz-transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes rotating {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@-o-keyframes rotating {
+    0% {
+        -o-transform: rotate(0deg);
+    }
+    100% {
+        -o-transform: rotate(360deg);
+    }
+} */
+
+
+@media (max-width: 700px) { 
+    .header {
+        min-height: 500px;
+    }
+}

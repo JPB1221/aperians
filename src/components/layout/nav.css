@@ -1,0 +1,43 @@
+.bg-pink:hover {
+  background: #d475e1;
+}
+
+.moile-menu {
+  display: none;
+}
+
+.mobile-menu-header {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  /*Big smartphones [426px -> 600px]*/
+  .dextop-menu {
+    display: none;
+  }
+  .mobile-menu-header {
+    display: block;
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    font-size: 22px;
+    z-index: 1000;
+  }
+  .mobile-menu-header-cross {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+    margin-top: 20px;
+    font-size: 22px;
+  }
+  .moile-menu {
+    z-index: 1000;
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    backdrop-filter: blur(10px);
+  }
+}

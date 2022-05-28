@@ -1,0 +1,167 @@
+/* houseimg */
+.building-image {
+  margin-right: 400px !important;
+  width: 500px !important;
+  margin-top: 250px !important;
+}
+
+@media only screen and (min-device-width: 280px) and (max-device-width: 280px) {
+  /* insert styles here */
+  .building-image {
+    margin-right: 400px !important;
+    width: 500px !important;
+    margin-top: 60px !important;
+  }
+}
+@media only screen and (min-device-width: 375px) and (max-device-width: 375px) {
+  /* insert styles here */
+  .building-image {
+    margin-right: 100px !important;
+    width: 500px !important;
+    margin-top: 0px !important;
+  }
+}
+@media only screen and (min-device-width: 390px) and (max-device-width: 390px) {
+  /* insert styles here */
+  .building-image {
+    margin-right: 400px !important;
+    width: 700px !important;
+    margin-top: 150px !important;
+  }
+}
+@media only screen and (min-device-width: 393px) and (max-device-width: 393px) {
+  /* insert styles here */
+  .building-image {
+    margin-right: 400px !important;
+    width: 700px !important;
+    margin-top: 150px !important;
+  }
+}
+@media only screen and (min-device-width: 360px) and (max-device-width: 360px) {
+  /* insert styles here */
+  .building-image {
+    margin-right: 400px !important;
+    width: 700px !important;
+    margin-top: 100px !important;
+  }
+}
+@media only screen and (min-device-width: 414px) and (max-device-width: 414px) {
+  /* insert styles here */
+  .building-image {
+    margin-right: 450px !important;
+    width: 700px !important;
+    margin-top: 150px !important;
+  }
+}
+@media only screen and (min-device-width: 412px) and (max-device-width: 412px) {
+  /* insert styles here */
+  .building-image {
+    margin-right: 400px !important;
+    width: 700px !important;
+    margin-top: 150px !important;
+  }
+}
+@media only screen and (min-device-width: 540px) and (max-device-width: 540px) {
+  /* insert styles here */
+  .building-image {
+    margin-right: 400px !important;
+    width: 600px !important;
+    margin-top: 50px !important;
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 768px) {
+  /* insert styles here */
+  .building-image {
+    margin-right: 250px !important;
+    width: 700px !important;
+    margin-top: 350px !important;
+  }
+}
+@media only screen and (min-device-width: 820px) and (max-device-width: 820px) {
+  /* insert styles here */
+  .building-image {
+    margin-right: 250px !important;
+    width: 700px !important;
+    margin-top: 450px !important;
+  }
+}
+@media only screen and (min-device-width: 912px) and (max-device-width: 912px) {
+  /* insert styles here */
+  .building-image {
+    margin-right: 300px !important;
+    width: 700px !important;
+    margin-top: 550px !important;
+  }
+}
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1024px) {
+  /* insert styles here */
+  .building-image {
+    margin-right: 400px !important;
+    width: 550px !important;
+    margin-top: 200px !important;
+  }
+}
+@media only screen and (min-device-width: 1280px) and (max-device-width: 1280px) {
+  /* insert styles here */
+  .building-image {
+    margin-right: 400px !important;
+    width: 550px !important;
+    margin-top: 300px !important;
+  }
+}
+/* @media only screen and (max-width: 360px) {
+  .building-image {
+    margin-right: 400px;
+    width: 700px;
+    margin-top: -30px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .building-image {
+    margin-right: 300px;
+    width: 600px;
+    margin-top: 270px;
+  }
+}
+@media only screen and (max-width: 912px) {
+  .building-image {
+    margin-right: 400px;
+    width: 600px;
+    margin-top: 450px;
+  }
+} */
+/* jp */
+@media only screen and (max-width: 1920px) and (max-device-width: 1920px) {
+  .building-image {
+    margin-right: 875px !important;
+    width: 600px !important;
+    margin-top: 430px !important;
+  }
+}
+
+@media only screen and (min-device-width: 1310px) and (max-device-width: 1310px) {
+  /* insert styles here */
+  .building-image {
+    margin-right: 400px !important;
+    width: 600px !important;
+    margin-top: 100px !important;
+  }
+}
+/* @media only screen and (max-width: 540px) {
+  .houseimg {
+    margin-top: 130px;
+  }
+  .building-image {
+    margin-right: 100px;
+    width: 400px;
+    margin-top: 550px;
+  }
+} */
+/* @media only screen and (max-width: 600px) {
+  .houseimg {
+    margin-top: 130px;
+  }
+} */
+
+/* width 1920 */
+/* height 1080 */

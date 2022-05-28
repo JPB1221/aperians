@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;500&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+    font-family: "DominoFarmRegular";
+    src: url("./fornts/domino-farm.ttf");
+}
+
+@font-face {
+    font-family: "Classic-Arcade";
+    src: url("./fornts/classicArcade.ttf");
+}
+
+#background-video {
+    @apply h-screen w-screen fixed top-0 left-0 object-cover bg-black;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    @apply text-white;
+    font-family: "Inconsolata", monospace;
+}
+
+.DominoFarmRegular {
+    font-family: "DominoFarmRegular";
+}
+
+@layer components {
+    .main-container {
+        @apply max-w-7xl px-5 mx-auto w-full;
+    }
+    .section-title {
+        @apply text-4xl text-white font-bold uppercase;
+    }
+}
+
+#star {
+    animation: star 5s linear infinite;
+    -webkit-animation: star 5s linear infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+@keyframes star {
+    from {
+        transform: rotatez(0deg);
+        -webkit-transform: rotatez(0deg);
+        -moz-transform: rotatez(0deg);
+        -ms-transform: rotatez(0deg);
+        -o-transform: rotatez(0deg);
+    }
+    to {
+        transform: rotatez(360deg);
+        -webkit-transform: rotatez(360deg);
+        -moz-transform: rotatez(360deg);
+        -ms-transform: rotatez(360deg);
+        -o-transform: rotatez(360deg);
+    }
+}
+
+.active-li h3 {
+    font-size: 1.7rem;
+    color: #cf0be0;
+}
+
+.active-li p {
+    font-size: 1.2rem;
+    color: #b2ffff;
+}
+
+
+#root{
+    cursor: url("../assets/imgs/aqua_cursor.png"), default !important;
+}
+
+
+a{
+    cursor: pointer !important;
+}

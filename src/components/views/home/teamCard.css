@@ -1,0 +1,119 @@
+/* teamCard-main-wrapper */
+.teamCard-main-wrapper{
+    width: 100%;        
+    /* margin: 20px; */
+}
+/* card-img-wrapper */
+.card-img-wrapper{    
+    position: relative; 
+}
+.card-img-wrapper img{    
+    width: 100%;
+}
+.card-img-wrapper .twitter-wrapper{     
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    right: 0;
+    bottom: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;    
+}
+.card-img-wrapper .twitter-wrapper i{
+    color: #000;
+    font-size: 24px;
+}
+.card-img-wrapper .instagram-wrapper{     
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    bottom: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;    
+}
+.card-img-wrapper .instagram-wrapper i{
+    color: #000;
+    font-size: 24px;
+}
+.card-img-wrapper .youtube-wrapper{   
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    left: 40%;
+    bottom: -20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;    
+}
+.card-img-wrapper .youtube-wrapper i{
+    color: #000;
+    font-size: 24px;
+}
+.card-img-wrapper img{
+    border-radius: 50%;
+}
+/* cardText-wrapper */
+.cardText-wrapper{
+    text-align: center;
+    margin-top: 30px;
+}
+.cardText-wrapper h3{
+    font-weight: 800;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.cardLinks-wrapper{
+    display: flex;
+    justify-content: center;    
+}
+.cardLinks-wrapper .linkwrapper{
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 50%;        
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;  
+}
+
+.cardLinks-wrapper .linkwrapper i{
+    color: #000;
+    font-size: 24px;
+}
+
+@media only screen and (max-width: 600px){
+	.teamCard-main-wrapper{
+        width: 100%;        
+        margin-left: 0;
+        margin-right: 0;
+    }    
+    .card-img-wrapper .twitter-wrapper{   
+        right: 5px;
+        bottom: -20px;
+    }
+    .card-img-wrapper .instagram-wrapper{
+        left: 5px;
+        bottom: -20px;
+    }
+    .card-img-wrapper .youtube-wrapper{
+        bottom: -30px;
+    }
+}
